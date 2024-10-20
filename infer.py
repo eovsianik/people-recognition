@@ -1,8 +1,9 @@
+import argparse
+
 import cv2
 import numpy as np
-from ultralytics import YOLO
 from filterpy.kalman import KalmanFilter
-import argparse
+from ultralytics import YOLO
 
 
 class KalmanTracker:
